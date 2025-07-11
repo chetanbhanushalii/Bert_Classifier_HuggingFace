@@ -13,7 +13,7 @@ tokenizer, model = load_model()
 
 # Set title
 st.title("Sentiment Classifier (BERT - Hugging Face)")
-st.write("Enter a review and get its predicted sentiment (positive or negative).")
+st.write("Enter a movie review and get its predicted sentiment (positive or negative).")
 
 # Text input
 user_input = st.text_area("Review Text", "I loved the movie!")
