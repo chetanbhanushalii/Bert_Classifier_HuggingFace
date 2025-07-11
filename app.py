@@ -5,8 +5,8 @@ import torch
 # Load model and tokenizer
 @st.cache_resource
 def load_model():
-    tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
-    model = BertForSequenceClassification.from_pretrained("bert-base-uncased")
+    tokenizer = BertTokenizer.from_pretrained("Chetan1995/bert-sentiment-movie")
+    model = BertForSequenceClassification.from_pretrained("Chetan1995/bert-sentiment-movie")
     return tokenizer, model
 
 tokenizer, model = load_model()
